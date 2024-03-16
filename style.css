@@ -1,1 +1,6 @@
-body{}
+img{
+    margin-top: 0%;
+    padding: auto;
+    max-width: max-content;
+    max-height: max-content;
+}
