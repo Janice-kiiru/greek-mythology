@@ -1,6 +1,33 @@
-img .name{
-    margin-top: 0%;
-    padding: auto;
-    max-width: max-content;
-    max-height: max-content;
+nav{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+    margin-left: 650px;
+    
+
+
+}
+
+.story{
+    border: 0cap;
+    border-color: black;
+    position: relative;
+    max-width: 300px;
+    height: 609px;
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 26px;
+
+}
+.name{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.fit{
+    padding-left: 30px;
+
 }
