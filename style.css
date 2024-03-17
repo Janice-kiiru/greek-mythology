@@ -24,10 +24,9 @@ nav{
 
 }
 .name{
-    max-width: fit-content;
-    max-height: fit-content;
+    padding-right: 0%;
 }
 .fit{
-    padding-left: 30px;
+    padding-left: 0%;
 
 }
