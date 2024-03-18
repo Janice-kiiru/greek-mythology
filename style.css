@@ -5,6 +5,8 @@ nav{
     justify-content: space-between;
     max-width: 50%;
     margin-left: 650px;
+    border-radius: 10px;
+    border-color: aqua;
     
 
 
@@ -14,13 +16,15 @@ nav{
     border: 0cap;
     border-color: black;
     position: relative;
-    max-width: 300px;
+    max-width: 60%;
     height: 609px;
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 26px;
+    overflow: scroll;
+    max-height: 50%;
 
 }
 .name{
