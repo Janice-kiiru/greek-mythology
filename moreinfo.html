@@ -97,6 +97,54 @@
 img{
     width: 500px;
 }
+.feedback{
+    padding-top: 2% !important;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+}
+.contact-text{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ 
+ button:hover {
+    background-color: #0056b3;
+ }
+
 </style>
 <body>
    <div class="main">
@@ -123,11 +171,32 @@ img{
         <div class="about-image">
             <img class="img animated"  src="./Assets/Design-inspiration.gif"/>
         </div>
-        
-        <div class="feedback">
-            <img class="contact-svg" src="./Assets/contact.svg" alt="contact-svg" />
-        </div>
+
+       
     </div>
     </div>
+
+    <div class="feedback">
+        <img class="contact-gif" src="./Assets/contact.gif" alt="contact-gif" />
+    </div>
+    <section id="contact">
+<P class="contact-text">
+          If you have any query or issue pertaining the site feel free to submit your details below and we will
+          follow you up.
+          THANK YOU
+</P>
+<form method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Your Email:</label>
+    <input type="text" id="email" name="email" required />
+
+    <label for="message">Your Message:</label>
+    <input type="text" id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+    </section>
 </body>
 </html>
