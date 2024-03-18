@@ -36,9 +36,12 @@ nav ul li {
 
 }
 .name{
-    padding-right: 0%;
-    margin-left: 440px;
+    display: inline-block;
     max-height: max-content;
+}
+
+.name img[src='./Assets/alphabet.jpeg']{
+    margin-bottom: 400px;
 }
 .fit{
     padding-left: 0%;
@@ -56,4 +59,8 @@ header {
     font-size: 24px; 
     font-weight: bold;
   }
-  
+
+.container{
+     display: inline-block;
+     margin-left: 5px;
+  }
