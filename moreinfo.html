@@ -4,28 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MORE INFO</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="./index.html">HOME</a></li>
-             <li><a href="./beginning.html">BEGINNING</a></li>
-             <li><a href="./life.html">LIFE</a></li>
-            <li> <a href="./downfall.html">DOWNFALL</a></li>
-             <li><a href="#">MORE INFO</a></li>
-         </ul>
-    </nav>
-   <div class="sub-main-about">
-    <div class="about-content">
-        <h2>More info</h2>
-        <p> Welcome to the Greek Mythology website, a website which gives you more insights
-            and additonal information about the Great Mythology and all the Greek gods.
-            In this website you can learn all the basic information you need to know about 
-            the ancient Greek gods as you delve into the ancient history of the Greek.
-        </p>
-    </div>
-   </div>
 
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    .title-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        position: relative;
+        width: 100%;
+        background-color: rgb(238, 236, 236);
+        margin-top: 0%;
+    }
+    .links{
+        display: flex;
+        gap: 2rem;
+        margin-right: 2rem;
+    }
+    a {
+        text-decoration: none;
+    color: black;
+    }
+    .sub-main-about{
+        padding-top: 5% !important;
+        padding: 1rem;
+        display: flex;
+    }
+    .about-content{
+        width: 40%;
+    }
+    .about-image{
+        width: 50%;
+    }
+.img{
+    width: 500px;
+    height: 400px;
+}
+    @media (max-width: 600px) {
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .links{
+            display: none;
+        }
+        .title-div{
+            background: none;
+            width: 100%;
+        }
+        .main{
+            flex-direction: column-reverse;
+        }
+        .sub-main-about{
+            width: 100%;
+            padding: 1rem;
+            flex-direction: column-reverse;
+        }
+        .about-content{
+            width: 100%;
+        }
+        .about-image{
+            width: 100%;
+            display: block;
+        }
+        .img{
+            width: 300px;
+            margin-top: 1rem;
+
+
+        }
+
+        
+    }
+    .sub-main-about{
+    padding-top: 15%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+.about-content{
+    width: 50%;
+}
+.about-image{
+    width: 50%;
+}
+img{
+    width: 500px;
+}
+</style>
+<body>
+   <div class="main">
+       <div class="title-div">
+       <h2 class="t1"> THE MYTHOLOGY OF GREEK GODS</h2>
+       <div class="links">
+            <a href="./index.html">HOME</a>
+             <a href="./beginning.html">BEGINNING</a>
+             <a href="./life.html">LIFE</a></li>
+             <a href="./downfall.html">DOWNFALL</a>
+             <a href="#">MORE INFO</a></li>
+        </div>
+        </div>
+    <div class="sub-main-about">
+        <div class="about-content">
+            <h2>More info</h2>
+            <p> Welcome to the Greek Mythology website, a website which gives you more insights
+                and additonal information about the Great Mythology and all the Greek gods.
+                In this website you can learn all the basic information you need to know about 
+                the ancient Greek gods as you delve into the ancient history of the Greek.</p>
+            
+        </div>
+   
+        <div class="about-image">
+            <img class="img animated"  src="./Assets/Design-inspiration.gif"/>
+        </div>
+        
+        <div class="feedback">
+            <img class="contact-svg" src="./Assets/contact.svg" alt="contact-svg" />
+        </div>
+    </div>
+    </div>
 </body>
 </html>
