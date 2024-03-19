@@ -74,7 +74,74 @@ footer{
   font-size: small;
 }
 .zeus{
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   margin-left: 5px;
   max-height: max-content;
+  margin-bottom: 20px;
+  
+}
+.zeus p{
+  max-width: 50%;
+  margin-left: 50px;
+}
+.hades{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  max-height: max-content;
+  max-width: max-content;
+  margin-bottom: 20px;
+}
+.hades p{
+  max-width: 50%;
+  margin-right: 40px;
+}
+.athena{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  max-height: max-content;
+  margin-bottom: 20px;
+}
+.athena p{
+  max-width: 50%;
+  margin-left: 50px;
+}
+.poseidon{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  max-height: max-content;
+  margin-bottom: 20px;
+}
+.poseidon p{
+  max-width: 50%;
+  margin-right: 40px;
+}
+.medusa{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  max-height: max-content;
+  margin-bottom: 20px;
+}
+.medusa p{
+  max-width: 50%;
+  margin-left: 50px;
+}
+.ares{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  max-height: max-content;
+  margin-bottom: 20px;
+}
+.ares p{
+  max-width: 50%;
+  margin-right: 40px;
+}
+.cronus p{
+  max-width: 50%;
+  margin-left: 50px;
 }
