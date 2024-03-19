@@ -33,7 +33,12 @@ nav ul li {
     line-height: 26px;
     overflow: scroll;
     max-height: 50%;
-
+    display: inline-block;
+    max-height:max-content;
+}
+.family-tree{
+  margin-left: 830px;
+  
 }
 .name{
     display: inline-block;
@@ -69,6 +74,6 @@ footer{
     margin-bottom: 0%;
 }
 
-.story .h2{
+.story.h2{
   font-size: small;
 }
