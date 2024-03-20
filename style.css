@@ -154,4 +154,81 @@ footer{
 }
 .conclusion{
   text-align: center;
+
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+.background{
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/zeus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+}
+.zeusp{
+position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+}
+.background1{
+  margin-left: 20px;
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/Hera.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+
+}
+.herap{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+
+}
+.background2{
+  margin-left: 20px;
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/poseidon.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+
+}
+.poseidonp{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+
 }
