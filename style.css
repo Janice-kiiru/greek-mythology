@@ -141,7 +141,17 @@ footer{
   max-width: 50%;
   margin-right: 40px;
 }
+.cronus{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  max-height: max-content;
+  margin-bottom: 40px;
+}
 .cronus p{
   max-width: 50%;
   margin-left: 50px;
+}
+.conclusion{
+  text-align: center;
 }
