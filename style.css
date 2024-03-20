@@ -232,3 +232,131 @@ color: #000000;
 padding-bottom: 50px;
 
 }
+.flex-container2{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.background3{
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/athena.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+
+}
+.athenap{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+}
+.background4{
+  margin-left: 20px ;
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/ares.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+}
+.aresp{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+
+}
+.background5{
+  margin-left: 15px ;
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/demeter.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+
+}
+.demeterp{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+}
+.flex-container3{
+  margin-top: 15px;
+  display: flex;
+}
+.background6{
+  position: relative;
+  width: 249px;
+  height: 266px;
+  background: url(./Assets/aphrodite.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
+  opacity: 40%;
+}
+.aphroditep{
+  position: relative;
+width: 200px;
+height: 156px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+padding-bottom: 50px;
+  
+}
+.scroll-container{ 
+  margin-top: 30px;
+  width: 800px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 30px;
+  position: relative;
+
+}
+@keyframes scroll{
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-100%);}
+}
+.content{
+  overflow: scroll;
+  animation: scroll 30s linear infinite;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  color: #000000;
+  max-width: max-content;
+
+}
