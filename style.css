@@ -154,8 +154,17 @@ footer{
 }
 .conclusion{
   text-align: center;
+  border: 2px solid rgb(66, 8, 175);
+  border-radius: 5px;
+  animation: blink 3s infinite;
 
 }
+#conclusion{
+  max-width: fit-content;
+  text-decoration: dotted;
+  border: #333;
+}
+
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -336,6 +345,9 @@ padding-bottom: 50px;
   
 }
 .scroll-container{ 
+  border-radius: 20px;
+  background: url(./Assets/olympus.jpg);
+  background-size: cover;
   margin-top: 30px;
   width: 800px;
   height: 200px;
@@ -350,13 +362,14 @@ padding-bottom: 50px;
 }
 .content{
   overflow: scroll;
-  animation: scroll 30s linear infinite;
+  animation: scroll 50s linear infinite;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 30px;
   line-height: 28px;
   color: #000000;
   max-width: max-content;
+  max-height: fit-content;
 
 }
